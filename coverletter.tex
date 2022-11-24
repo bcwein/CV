@@ -1,0 +1,135 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Bjørn Christian}{Weinbach}
+\position{Software Engineer{\enskip\cdotp\enskip}Data Science}
+\address{Novstubben 18, 4044 Hafrsfjord, Noreg}
+
+\mobile{(+47) 458 82 126}
+\email{bcwein343@mail.com}
+\github{bcwein}
+\linkedin{bjørnchristianweinbach}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\twitter{@bcwein}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+%\recipient
+ % {Company Recruitment Team}
+  %{Hydro}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for 2021 Internship}
+% How the letter is opened
+\letteropening{}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+% \letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Bjørn Christian Weinbach~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+My name is Bjørn Christian Weinbach, i am 24 years old and trace my origins to Sogndal. I have a engineering degree in computer science from the Norwegian University of Science and Technology in Gjøvik and i am now pursing a masters degree in computer science specialising in data science at the University of Stavanger and I currently reside in Stavanger. When i am not studying or working, you most likely will find me outside hiking, skiing or fishing. I also just registered as a volunteer for the Norwegian Trekking Association.
+
+\lettersection{Why Silicon Labs?}
+I am looking for job opportunities in Norway and i apply for the jobs that i find exciting, and Silicon Labs definitely seems like an employer i would enjoy working with. Though there are few details about the internship, i believe silicon labs have quite a range of interesting problems and i would be very happy to be able to take part in solving these problems.
+
+\lettersection{Why Me?}
+I hope that my previous education, former employers and what degree i am currently pursing will be of interest for your positions. My study program will for the next year focus a lot on statistics, R programming, python programming, databases, machine learning and deep learning. I have a great interest for developing software that is data driven,  scalable and robust. I also have a curious and quantitative mind and enjoy studying science, mathematics, statistics and data science and how these tools may help to achieve our goals for the future. The process of learning is a state that i am quite fond of being in and i am also open to new challenges. I have some work experience and quite a lot of project work from my study programme. I truly enjoy working with other clever and skilled people to together achieve whatever our goals may be. 
+
+I hope I may be a suitable candidate for your positions. If not, i wish you all the best during these challenging times.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
